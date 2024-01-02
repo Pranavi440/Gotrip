@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styless.css" />
+    <title>contact us</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .contact-us {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+    </style>
+</head>
+<body>
+    <section class="nav-bar">
+        <div class="logo">Go Trip</div>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="tours.html">tours</a></li>
+            <!-- <li><a href="#">package</a></li> -->
+            <!-- <li><a href="#">blog</a></li> -->
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="contactus.html">SignUp/Login</a></li>
+        </ul>
+        </div>
+
+    </section>
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! If you have any questions, suggestions, or just want to say hello, feel free to reach out to us using the contact form below.</p>
+    
+        <form action="#" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    
+      <footer>
+        <p>&copy; 2023 Travel Adventure. All rights reserved.</p>
+      </footer>
+    
+    
+</body>
+</html>
